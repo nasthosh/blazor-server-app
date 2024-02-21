@@ -1,0 +1,16 @@
+﻿@page "/employee/employeedetails/{employeeId:int}"
+@page "/employee/employeedetails"
+@page "/employ"
+
+<h3>EmployeeDetails</h3>
+<hr />
+
+<p> @EmployeeId/Santhosh - Wipro</p>
+
+@code {
+
+    [Parameter]
+    public int EmployeeId { get; set; }
+
+}
+
